@@ -1,0 +1,4 @@
+CreateUserData #class
+cimn.CreateUser #namespace
+person cimn.Person #field
+person PERSISTENT #fieldModifier

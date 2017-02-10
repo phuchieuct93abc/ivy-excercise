@@ -1,5 +1,5 @@
 [Ivy]
-[>Created: Fri Feb 10 08:02:59 ICT 2017]
+[>Created: Fri Feb 10 12:39:08 ICT 2017]
 15A21418A131DB94 3.19 #module
 >Proto >Proto Collection #zClass
 Cs0 CRUDProcess Big #zClass
@@ -35,11 +35,6 @@ Cs0 @RichDialogMethodStart f16 '' #zField
 Cs0 @GridStep f17 '' #zField
 Cs0 @PushWFArc f18 '' #zField
 Cs0 @PushWFArc f19 '' #zField
-Cs0 @ErrorBoundaryEvent f20 '' #zField
-Cs0 @GridStep f21 '' #zField
-Cs0 @PushWFArc f22 '' #zField
-Cs0 @ErrorBoundaryEvent f23 '' #zField
-Cs0 @PushWFArc f24 '' #zField
 >Proto Cs0 Cs0 CRUDProcess #zField
 Cs0 f0 guid 15A21418AC8D502B #txt
 Cs0 f0 type cimn.CRUD.CRUDData #txt
@@ -148,9 +143,9 @@ Cs0 f12 @|StepIcon #fIcon
 Cs0 f13 expr out #txt
 Cs0 f13 77 208 288 208 #arcP
 Cs0 f6 expr out #txt
-Cs0 f6 400 64 563 56 #arcP
+Cs0 f6 400 64 563 64 #arcP
 Cs0 f1 type cimn.CRUD.CRUDData #txt
-Cs0 f1 563 43 26 26 0 12 #rect
+Cs0 f1 563 51 26 26 0 12 #rect
 Cs0 f1 @|RichDialogProcessEndIcon #fIcon
 Cs0 f8 expr out #txt
 Cs0 f8 344 186 344 86 #arcP
@@ -190,9 +185,9 @@ Cs0 f10 @|StepIcon #fIcon
 Cs0 f14 expr out #txt
 Cs0 f14 77 288 248 288 #arcP
 Cs0 f15 expr out #txt
-Cs0 f15 360 288 563 56 #arcP
+Cs0 f15 360 288 563 64 #arcP
 Cs0 f15 1 464 288 #addKink
-Cs0 f15 2 464 56 #addKink
+Cs0 f15 2 464 64 #addKink
 Cs0 f15 1 0.48922413793103436 0 0 #arcLabel
 Cs0 f16 guid 15A235EB801E073A #txt
 Cs0 f16 type cimn.CRUD.CRUDData #txt
@@ -232,39 +227,9 @@ Cs0 f17 @|StepIcon #fIcon
 Cs0 f18 expr out #txt
 Cs0 f18 77 384 200 384 #arcP
 Cs0 f19 expr out #txt
-Cs0 f19 256 362 344 86 #arcP
-Cs0 f19 1 256 224 #addKink
-Cs0 f19 2 344 224 #addKink
-Cs0 f19 1 0.5 0 0 #arcLabel
-Cs0 f20 actionDecl 'cimn.CRUD.CRUDData out;
-' #txt
-Cs0 f20 actionTable 'out=in;
-' #txt
-Cs0 f20 type cimn.CRUD.CRUDData #txt
-Cs0 f20 attachedToRef 15A21418A131DB94-f17 #txt
-Cs0 f20 273 401 30 30 0 15 #rect
-Cs0 f20 @|ErrorBoundaryEventIcon #fIcon
-Cs0 f21 actionDecl 'cimn.CRUD.CRUDData out;
-' #txt
-Cs0 f21 actionTable 'out=in;
-' #txt
-Cs0 f21 actionCode ivy.log.error("error"); #txt
-Cs0 f21 type cimn.CRUD.CRUDData #txt
-Cs0 f21 232 490 112 44 0 -8 #rect
-Cs0 f21 @|StepIcon #fIcon
-Cs0 f22 288 431 288 490 #arcP
-Cs0 f23 actionDecl 'cimn.CRUD.CRUDData out;
-' #txt
-Cs0 f23 actionTable 'out=in;
-' #txt
-Cs0 f23 type cimn.CRUD.CRUDData #txt
-Cs0 f23 attachedToRef 15A21418A131DB94-f12 #txt
-Cs0 f23 361 225 30 30 0 15 #rect
-Cs0 f23 @|ErrorBoundaryEventIcon #fIcon
-Cs0 f24 376 255 288 490 #arcP
-Cs0 f24 1 376 384 #addKink
-Cs0 f24 2 288 384 #addKink
-Cs0 f24 1 0.3693181818181818 0 0 #arcLabel
+Cs0 f19 312 384 344 86 #arcP
+Cs0 f19 1 344 384 #addKink
+Cs0 f19 1 0.37642613095493327 0 0 #arcLabel
 >Proto Cs0 .type cimn.CRUD.CRUDData #txt
 >Proto Cs0 .processKind HTML_DIALOG #txt
 >Proto Cs0 .xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -292,7 +257,3 @@ Cs0 f16 mainOut f18 tail #connect
 Cs0 f18 head f17 mainIn #connect
 Cs0 f17 mainOut f19 tail #connect
 Cs0 f19 head f7 mainIn #connect
-Cs0 f20 mainOut f22 tail #connect
-Cs0 f22 head f21 mainIn #connect
-Cs0 f23 mainOut f24 tail #connect
-Cs0 f24 head f21 mainIn #connect

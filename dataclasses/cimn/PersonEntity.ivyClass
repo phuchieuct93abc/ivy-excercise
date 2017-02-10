@@ -1,0 +1,15 @@
+PersonEntity #class
+true #isEntity
+cimn #namespace
+Person #dbTableName
+id Integer #field
+id Identifier #fieldComment
+id PERSISTENT #fieldModifier
+id ID #fieldModifier
+id GENERATED #fieldModifier
+name String #field
+name Person #fieldComment
+name PERSISTENT #fieldModifier
+age String #field
+age Age #fieldComment
+age PERSISTENT #fieldModifier

@@ -1,0 +1,8 @@
+Person #class
+cimn #namespace
+ID String #field
+ID PERSISTENT #fieldModifier
+name String #field
+name PERSISTENT #fieldModifier
+age Integer #field
+age PERSISTENT #fieldModifier

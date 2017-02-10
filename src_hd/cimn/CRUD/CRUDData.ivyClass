@@ -1,0 +1,12 @@
+CRUDData #class
+cimn.CRUD #namespace
+data cimn.Data #field
+data PERSISTENT #fieldModifier
+person cimn.Person #field
+person PERSISTENT #fieldModifier
+personEntity cimn.PersonEntity #field
+personEntity PERSISTENT #fieldModifier
+personEntities List<cimn.PersonEntity> #field
+personEntities PERSISTENT #fieldModifier
+selectedId Integer #field
+selectedId PERSISTENT #fieldModifier
